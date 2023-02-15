@@ -9,3 +9,5 @@ test:
 
 run:
 	$(RUN_GRADLE) :java-project-app:run  --daemon
+
+# TODO may add linting/code formatting?
