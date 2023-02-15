@@ -5,4 +5,7 @@ build:
 .PHONY: build
 
 test:
-	$(RUN_GRADLE) test --info
+	$(RUN_GRADLE) test --info --daemon
+
+run:
+	$(RUN_GRADLE) :java-project-app:run  --daemon
