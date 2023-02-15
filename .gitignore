@@ -1,0 +1,11 @@
+# mac
+**/.DS_Store
+
+# gradle
+**/build
+**/.gradle
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# intellij
+**/.idea
+**/*.iml
