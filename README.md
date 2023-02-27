@@ -1,8 +1,8 @@
 # java-project-template
 
 ### prerequisite
+- [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - [Make](https://www.gnu.org/software/make/)
-- [Docker](https://docs.docker.com/engine/install/)
 
 ### build project
     $ make build
