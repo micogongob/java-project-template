@@ -1,4 +1,4 @@
-RUN_GRADLE = sh gradlew
+RUN_GRADLE = bash gradlew
 
 build:
 	$(RUN_GRADLE) -x test build --daemon
