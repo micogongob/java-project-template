@@ -1,12 +1,15 @@
 RUN_MAVEN = bash mvnw
 
+compile:
+	$(RUN_MAVEN) clean compile -DskipTests=true
+
 build:
-	$(RUN_MAVEN) package -DskipTests=true
+	$(RUN_MAVEN) clean package -DskipTests=true
 
 test:
-	$(RUN_MAVEN) test
+	$(RUN_MAVEN) clean test
 
 run:
-	$(RUN_MAVEN) run --projects java-project-app
+	$(RUN_MAVEN) compile exec:java -Dexec.mainClass=com.template.javaproject.app.Application
 
 # TODO may add linting/code formatting?
