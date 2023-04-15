@@ -6,6 +6,10 @@
 **/.gradle
 !**/gradle/wrapper/gradle-wrapper.jar
 
+# maven
+**/target
+!**/.mvn/wrapper/maven-wrapper.jar
+
 # intellij
 **/.idea
 **/*.iml
