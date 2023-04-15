@@ -1,0 +1,12 @@
+RUN_MAVEN = bash mvnw
+
+build:
+	$(RUN_MAVEN) package -DskipTests=true
+
+test:
+	$(RUN_MAVEN) test
+
+run:
+	$(RUN_MAVEN) run --projects java-project-app
+
+# TODO may add linting/code formatting?
