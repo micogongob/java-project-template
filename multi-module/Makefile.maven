@@ -5,6 +5,7 @@ compile:
 
 build:
 	$(RUN_MAVEN) clean package -DskipTests=true
+.PHONY: build
 
 test:
 	$(RUN_MAVEN) clean test
