@@ -10,4 +10,7 @@ test:
 run:
 	$(RUN_GRADLE) :java-project-app:run  --daemon
 
+jar:
+	java -jar apps/java-project-app/build/libs/java-project-apps-1.0.0-SNAPSHOT-all.jar
+
 # TODO may add linting/code formatting?
