@@ -13,4 +13,7 @@ test:
 run:
 	$(RUN_MAVEN) compile exec:java -Dexec.mainClass=com.template.javaproject.Application
 
+jar:
+	java -jar target/app.jar
+
 # TODO may add linting/code formatting?
