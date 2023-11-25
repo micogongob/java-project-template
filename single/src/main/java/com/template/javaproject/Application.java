@@ -13,7 +13,8 @@ public class Application {
     }
 
     public static void main(String[] args) {
-        log.info("App Info: {}", helper.getAppInfo());
+        var info = helper.getAppInfo();
+        log.info("App Info: {}", info);
     }
 
     public static void setHelper(JavaProjectHelper helper) {
