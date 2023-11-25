@@ -1,5 +1,15 @@
+buildscript {
+    repositories {
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath "com.github.johnrengelman:shadow:${shadowJarVersion}"
+    }
+}
+
 apply plugin: 'java'
 apply plugin: 'application'
+apply plugin: 'com.github.johnrengelman.shadow'
 
 group = 'com.template.javaproject'
 sourceCompatibility = JavaVersion.VERSION_17
