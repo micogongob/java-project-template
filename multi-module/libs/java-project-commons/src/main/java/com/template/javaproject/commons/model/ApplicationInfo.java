@@ -1,19 +1,6 @@
 package com.template.javaproject.commons.model;
 
-import lombok.NoArgsConstructor;
-import lombok.AllArgsConstructor;
-import lombok.AccessLevel;
-import lombok.Getter;
-import lombok.EqualsAndHashCode;
-import lombok.ToString;
+public record ApplicationInfo(String name,
+                              String description,
+                              String version) { }
 
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
-@AllArgsConstructor
-@Getter
-@EqualsAndHashCode
-@ToString
-public class ApplicationInfo {
-    private String name;
-    private String description;
-    private String version;
-}

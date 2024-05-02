@@ -16,8 +16,8 @@ public class ApplicationInfoTest {
         );
 
         // expect
-        assertThat(info.getName()).isNotBlank();
-        assertThat(info.getDescription()).isNotBlank();
-        assertThat(info.getVersion()).isNotBlank();
+        assertThat(info.name()).isNotBlank();
+        assertThat(info.description()).isNotBlank();
+        assertThat(info.version()).isNotBlank();
     }
 }
