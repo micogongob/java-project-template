@@ -10,11 +10,11 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
 
-        <logback.version>1.4.5</logback.version>
-        <lombok.version>1.18.26</lombok.version>
-        <junit.version>5.9.2</junit.version>
-        <assertj.version>3.24.2</assertj.version>
-        <mockito.version>5.1.1</mockito.version>
+        <logback.version>1.5.6</logback.version>
+        <lombok.version>1.18.30</lombok.version>
+        <junit.version>5.10.1</junit.version>
+        <assertj.version>3.26.0</assertj.version>
+        <mockito.version>5.12.0</mockito.version>
 
         <uberjar.name>app</uberjar.name>
     </properties>
